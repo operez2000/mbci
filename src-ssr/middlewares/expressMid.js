@@ -9,8 +9,8 @@ import nodeMailer from 'nodemailer'
 import { error } from 'console'
 
 // Configuración Twilio
-const accountSid = 'AC11ff4a5b66c56690bfb6ef2675c403cc' // process.env.TWILIO_ACCOUNT_SID;
-const authToken = '836c59c88f65ac157755a194a4acd414' //process.env.TWILIO_AUTH_TOKEN;
+const accountSid = 'AccountSid' // process.env.TWILIO_ACCOUNT_SID;
+const authToken = 'AuthToken'   // process.env.TWILIO_AUTH_TOKEN;
 const client = require('twilio')(accountSid, authToken);
 
 const sqlApi = new Sequelize({
