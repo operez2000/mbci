@@ -41,8 +41,8 @@ const mailConfig = {
   host: 'smtp.gmail.com', //'smtpout.secureserver.net', //
   //port: 587,    // 465
   auth: {
-      user: 'segurosbinacional@gmail.com', //'ventaschaparral@mybestcarinsurance.com', //
-      pass: 'zodmxkuynomhsvdc', //'Elsaysergio19', // 'Ofic432P$' //
+      user: 'email@gmail.com',
+      pass: 'emailpassword',
   },
   tls: {
     rejectUnauthorized: false
